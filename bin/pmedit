@@ -1,0 +1,5 @@
+#!/bin/bash
+
+path=`perldoc -ml $1`
+exec vim $path
+
